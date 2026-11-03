@@ -3,7 +3,8 @@
 # [ECCV 2026] ZeroSplat: Generalized Referring Segmentation in 3D Gaussian Splatting
 
 <h3>
-  <a href="https://arxiv.org/abs/2607.18801">Paper</a> |
+  <a href="https://link.springer.com/chapter/10.1007/978-3-032-37393-9_10">Paper</a> |
+  <a href="https://arxiv.org/abs/2607.18801">arXiv</a> |
   <a href="https://inkmind-ai.github.io/ZeroSplat/">Project Page</a> |
   <a href="https://huggingface.co/datasets/jiayuttkx/GR-LERF">GR-LERF</a> |
   <a href="https://huggingface.co/datasets/jiayuttkx/GR-ScanNet">GR-ScanNet</a>
@@ -374,7 +375,25 @@ The repository is distributed under the **ZeroSplat Research License for non-com
 
 ## 6. Citation
 
-For the paper's BibTeX entry, see the [Citation section on the project page](https://inkmind-ai.github.io/ZeroSplat/#bibtex). The paper is available at [arXiv:2607.18801](https://arxiv.org/abs/2607.18801). Paper authorship and third-party attribution are separate from repository maintenance.
+If you use ZeroSplat in your research, please cite the [published ECCV 2026 paper](https://link.springer.com/chapter/10.1007/978-3-032-37393-9_10). The preprint remains available at [arXiv:2607.18801](https://arxiv.org/abs/2607.18801).
+
+```bibtex
+@inproceedings{ding2026zerosplat,
+  author={Ding, Jiayu and Song, Meilu and Zhang, Xiaoyi and Jin, Hongbo and Jin, Yichen and Si, Xiangtian},
+  editor={Favaro, Paolo and Kukelova, Zuzana and Maki, Atsuto and Rohrbach, Anna and Schindler, Konrad and Tombari, Federico},
+  title={ZeroSplat: Generalized Referring Segmentation in 3D Gaussian Splatting},
+  booktitle={Computer Vision -- ECCV 2026},
+  year={2026},
+  publisher={Springer Nature Switzerland},
+  address={Cham},
+  series={Lecture Notes in Computer Science},
+  volume={17078},
+  pages={147--163},
+  doi={10.1007/978-3-032-37393-9_10},
+  isbn={978-3-032-37393-9},
+  url={https://link.springer.com/chapter/10.1007/978-3-032-37393-9_10}
+}
+```
 
 ---
 
