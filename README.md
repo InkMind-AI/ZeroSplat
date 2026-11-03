@@ -9,8 +9,6 @@
   <a href="https://huggingface.co/datasets/jiayuttkx/GR-ScanNet">GR-ScanNet</a>
 </h3>
 
-Repository maintainers: [jiayuding031020](https://github.com/JiayuDing031020) · [2tfts](https://github.com/2tfts)
-
 </div>
 
 ZeroSplat segments language-specified targets in an existing 3D Gaussian Splatting (3DGS) scene. The implementation combines geometry-based keyframe selection, vision-language model (VLM) parsing, SAM3 masks, and multi-view label lifting and refinement. It uses a reconstructed 3DGS model without additional scene-specific semantic training.
@@ -382,7 +380,7 @@ For the paper's BibTeX entry, see the [Citation section on the project page](htt
 
 ## 7. Contact and Troubleshooting
 
-For code questions or reproducibility issues, open a [GitHub issue](https://github.com/InkMind-AI/ZeroSplat/issues). The repository is maintained by [jiayuding031020](https://github.com/JiayuDing031020) and [2tfts](https://github.com/2tfts).
+For code questions or reproducibility issues, open a [GitHub issue](https://github.com/InkMind-AI/ZeroSplat/issues).
 
 - **CUDA extension import errors:** build all three extensions with the same Python, PyTorch, and CUDA environment used for the pipeline.
 - **Python source decoding errors:** the current `arguments/__init__.py` contains non-UTF-8 bytes. An encoding conversion is needed if Python rejects that file; dependency installation does not fix source encoding.
