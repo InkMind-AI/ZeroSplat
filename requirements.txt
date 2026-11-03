@@ -1,0 +1,24 @@
+# Install PyTorch with CUDA first, then the CUDA submodules, then this file:
+#   pip install -e submodules/simple-knn
+#   pip install -e submodules/diff-gaussian-rasterization
+#   pip install -e submodules/zero-rasterization
+#   pip install -r requirements.txt
+#
+# SAM3 is not listed here. Clone or symlink it as sam3_main/ at the repo root
+# (see README.md). The last three packages are commonly required by SAM3.
+#
+# vLLM is not a pipeline dependency. Install it separately and download the
+# VLM weights as described in README.md (Installation step 4).
+
+numpy
+opencv-python
+open3d
+plyfile
+Pillow
+tqdm
+openai
+scikit-learn
+torchvision
+timm
+huggingface_hub
+iopath

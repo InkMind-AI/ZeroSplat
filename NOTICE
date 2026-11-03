@@ -1,0 +1,13 @@
+Third-party notices
+===================
+
+This repository includes code derived from 3D Gaussian Splatting
+(Inria GRAPHDECO / MPII). Those components remain under their original
+non-commercial research licenses:
+
+- submodules/diff-gaussian-rasterization/LICENSE.md
+- submodules/simple-knn/LICENSE.md
+- submodules/zero-rasterization/LICENSE.md
+
+Selected files under arguments/, scene/, utils/, and gaussian_renderer/
+are also derived from that project and are subject to the same terms.
